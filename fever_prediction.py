@@ -340,7 +340,7 @@ X_train, X_test, y_train, y_test = train_test_split(
 print(X_train.head())
 print(y_train.head())
 
-"""# Liner Regression
+"""# Linear Regression
 ## The residuals are near the 0 line, which means the model's prediction have negative an positive deviations. Residual doesn't increase or decrease with the predicted values, indicating that the model's variance is fixed stable. There are some outliers, meaning the actual and predication exsist errors.
 """
 
@@ -408,7 +408,7 @@ print("Training RMSE (SGD):", train_rmse_sgd)
 comparison_df_sgd = pd.DataFrame({'Actual': y_train, 'Predicted': y_train_pred_sgd})
 print(comparison_df_sgd.head())
 
-"""## As same result as Liner Regression, it could be the reason that we use the same parameters in CV or the feature correlation is relative low."""
+"""## As same result as Linear Regression, it could be the reason that we use the same parameters in CV or the feature correlation is relative low."""
 
 # Instantiate the Linear Regression model
 sgd_regressor = SGDRegressor(max_iter=1000, tol=1e-3, random_state=42)
@@ -908,7 +908,7 @@ X_train, X_test, y_train, y_test = train_test_split(
 print(X_train.head())
 print(y_train.head())
 
-"""# Liner Regression"""
+"""# Linear Regression"""
 
 linear_model = LinearRegression()
 

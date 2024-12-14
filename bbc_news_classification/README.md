@@ -1,4 +1,4 @@
-# Comprehensive Workflow and Technical Summary
+# BBC New Binary Classification Project
 
 ## Table of Contents
 1. [Data Acquisition and Preprocessing](#data-acquisition-and-preprocessing)

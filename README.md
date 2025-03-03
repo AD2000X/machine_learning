@@ -6,7 +6,7 @@
 - **BBC News Classification**:
   - Focuses on NLP and text-based applications.
   - Leverages advanced deep learning techniques, sophisticated text preprocessing, and contextual embeddings (e.g., BERT).
-  - Tackles multi-class classification problems with higher complexity.
+  - Tackles binary classification problems with higher complexity.
 
 ## Table of Contents
 1. [Data Processing](#data-processing)
@@ -88,7 +88,7 @@
   - XGBoost.
 
 ### BBC News Classification:
-- Implements multi-class classification for text categorization, using:
+- Implements binary classification for text categorization, using:
   - Traditional ML algorithms (e.g., Logistic Regression, SVM, KNN).
   - Deep learning models, including sequential neural networks with dense layers.
 - Optimizes efficiency by:
